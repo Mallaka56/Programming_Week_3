@@ -1,0 +1,8 @@
+cijferICOR = 6
+cijferPROG = 8
+cijferCSN = 7
+gemiddelde = (cijferICOR + cijferPROG + cijferCSN) / 3
+beloning = (gemiddelde * 3)  * 30
+overzicht = 'Mijn cijfers hebben een gemiddelde van ' + str(gemiddelde) + ' en leveren totaal ' + str(beloning) + ' euro op.'
+print(overzicht)
+
